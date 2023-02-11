@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:antiquewhite;
+}
+.social-icon{
+  color:orangered;
+  text-decoration: none;
+  margin: 0px ;
+  font-size:x-large
+}
+.social-icon:hover{
+  color:black;
+}
+
+.social{
+  color: blue;
+  text-decoration: none;
+  margin:0 px ;
+  font-size: x-large;
+
+}
+.social:hover{
+  color:blueviolet;
+}
+
+.icon{
+  color: black;
+  font-size: x-large;
+}
+
+.icon:hover{
+  color: brown;
+}
+
+.navbar {
+  display: flex;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration:none;
+  background-color: antiquewhite;
+}
+.navbar ul {
+  display: flex;
+  margin: 20px 0px;
+}
+.navbar ul ol {
+  font-family: sans-serif;
+  font-size: 1;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 60px;
+}
+.navbar ul ol a {
+  text-decoration: none;
+  color: black;
+  padding: 3px 20px;
+}
+.navbar ul ol a:hover {
+  background-color:lightcoral;
+}
+
+.container {
+  display: flex;
+  gap: 90px;
+  height: 100vh;
+}
+
+.Home img {
+  flex: 1;
+  max-width: 450px;
+  margin: 20px 0 0 200px;
+}
+
+.main {
+  margin: 0 200px 0 0;
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 60px;
+}
+
+.main p {
+  font-size: 20px;
+}
+
+.headings {
+  color: #000;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align:center;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  margin: 00px 0 0 150px;
+  
+  
+}
+.intro {
+  flex: 1;
+  text-align: justify;
+}
+.aboutMe h2 {
+  font-size: 60px;
+  color:lightcoral;
+  
+}
+.aboutMe h2:hover{
+  color:grey;
+}
+
+.intro p {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.education {
+  margin: 10px 125px 0 125px;
+  gap: 50px;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+
+  /* font-size: 100px; */
+  /* margin-top: 250px; */
+  /* text-align: center; */
+}
+#education{
+  margin: 200px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color:black
+  
+  
+}
+
+
+.bachelor {
+  flex: 1;
+  font-size: 30px;
+  margin: 40px 0;
+  color:brown;
+  
+}
+.college {
+  flex: 1;
+  font-size: 30px;
+  margin: 40px 0;
+  color: brown;
+}
+.school {
+  flex: 1;
+  font-size: 30px;
+  margin: 40px 0;
+  color: brown;
+}
+
+
+form{
+   display: flex;
+  flex-direction:column;
+  padding: 0;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 50px;
+  box-sizing:border-box;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  
+
+
+}
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 15px;
+  outline:auto;
+  background:lightgray;
+
+
+
+}
+form button{
+  padding: 15px;
+  background: lightpink;
+  color:black;
+  font-size: 18px;
+  border: 0;
+  width: 150px;
+  margin: 20px auto 0 ;
+  border-radius: 30px;
+  margin-bottom: 30px;
+
+  
+}
+
+
+.copyright_footer{
+  
+  color: red;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  font-size: x-large;
+}
+.aboutMe img{
+  width: 350px;
+  height: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
